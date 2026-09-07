@@ -1,0 +1,12 @@
+# Parameters used only to generate the reusable trajectory dataset.
+steps: 100
+horizon: 2.0
+seed: 8
+
+samplers:
+  - type: ou
+    paths: 512
+    params:
+      theta: 1.2
+      mu: -1.0
+      sigma: 0.45

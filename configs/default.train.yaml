@@ -1,0 +1,22 @@
+# Training parameters. Dataset generation lives in configs/default.dataset.yaml.
+
+epochs: 200
+batch_size: 128
+sample_path: 4096
+validation_size: 0.2
+validation_samples: 32
+learning_rate: 0.003
+solver_dt: 0.01
+observation_std: 0.1
+initial_prior_std: 0.1
+kl_weight: 1.0
+log_every: 25
+seed: 7
+
+tensorboard:
+  enabled: true
+  batch_every: 10
+  diagnostics_every: 25
+  prior_samples: 1024
+  posterior_probe_paths: 64
+  plot_paths: 8

@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.python-version
+
+# Virtual environments
+.venv
+
+artifacts/
+
+configs/*
+!configs/default.train.yaml
+!configs/default.dataset.yaml
+!configs/mixture.dataset.yaml
